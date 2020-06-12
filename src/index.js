@@ -6,9 +6,9 @@ import Life from './pages/demo/Life';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Life />
-  </React.StrictMode>,
+  // <React.StrictMode>
+  <Life />,
+  // </React.StrictMode>,
   document.getElementById('root')
 );
 
